@@ -1,0 +1,149 @@
+.logo{
+  height: 100px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*background-color: #dddddd;*/
+
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+li {
+  display: inline;
+  float: right;
+  padding-top: 2%;
+}
+a {
+  display: block;
+  padding: 8px;
+  /*background-color: #dddddd;*/
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #ADD8E6;
+}
+.fb{
+  position: absolute;
+  padding: 5px;
+  height: 40px;
+  right: 15%;
+}
+.twitter{
+  position: absolute;
+  padding: 5px;
+  height: 40px;
+  right: 17%;
+}
+.telephone{
+  position: absolute;
+  padding: 5px;
+  height: 40px;
+  right: 19%;
+}
+.online {
+  background-color: #ADD8E6;
+}
+.Button{
+  background-color: blue;
+  color: white;
+  border-radius: 25px;
+}
+.Button1{
+  top: 60%;
+  position:  absolute;
+  left: 38%;
+  background-color: blue;
+  color: white;
+  border-radius: 25px;
+  width: 25%;
+  padding: 2%;
+}
+.calendar{
+  display: inline-block;
+  float: right;
+  height: 50px;
+}
+.Header{
+  position: absolute;
+  top: 5%;
+  left: 15%;
+  width: 70%;
+  height: 90%;
+}
+.originalHeader{
+  position: absolute;
+  background-color: #f9f9f9;
+  top: 0px;
+  height: 5%;
+  width: 100%;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  top: 150px;
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.about{
+  position: absolute;
+  background-color: #6262fc;
+  top: 20%;
+  height: 15%;
+  width: 100%;
+  left: 0px;
+}
+.aboutheader{
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+.info-container{
+  position: absolute;
+  height: 30%;
+  width: 100%;
+  top: 30%;
+}
+
+.contact{
+  position: absolute;
+  padding-top: 5%;
+  width: 75%;
+  left: 50%;
+}
+.dentist{
+  top: 30%;
+  position: absolute;
+  left: 14%;
+  height: 450px;
+}
+.dentist-paragraph{
+  width: 50%;
+  font-size: 20px;
+  right: 19%
+}
+
+.dentist-paragraph1{
+  position: relative;
+  top: 20px;
+  width: 50%;
+  font-size: 20px;
+}
