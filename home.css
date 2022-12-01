@@ -198,6 +198,7 @@ li a:hover {
   opacity: 90%;
   color: white;
   padding: 1%;
+  border-radius: 25px;
 }
 .icon{
   height: 100px;
@@ -218,6 +219,7 @@ li a:hover {
   opacity: 90%;
   color: white;
   padding: 1%;
+  border-radius: 25px;
 }
 
 .article-container2{
@@ -230,6 +232,7 @@ li a:hover {
   opacity: 90%;
   color: white;
   padding: 1%;
+  border-radius: 25px;
 }
 .icon2{
   height: 100px;
