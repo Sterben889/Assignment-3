@@ -279,7 +279,7 @@ li a:hover {
 }
 .About-Button{
   position: absolute;
-  width: 15%;
+  width: 17%;
   background-color: blue;
   color: white;
   border-radius: 25px;
@@ -312,8 +312,9 @@ li a:hover {
 }
 
 .contact-button{
+  text-align: center;
   position: relative;
-  width: 12%;
+  width: 15%;
   background-color: blue;
   color: white;
   border-radius: 25px;
