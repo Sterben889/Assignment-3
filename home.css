@@ -1,3 +1,6 @@
+html, body { /*prevent from sidescrolling*/
+    font-family: sans-serif;
+}
 .white{
   position: fixed;
   background-color: white;
@@ -87,12 +90,13 @@ li a:hover {
 .Button1{
   top: 60%;
   position:  absolute;
-  left: 38%;
+  left: 35%;
   background-color: blue;
   color: white;
   border-radius: 25px;
-  width: 25%;
+  width: 30%;
   padding: 2%;
+  text-align: center;
 }
 .calendar{
   display: inline-block;
@@ -328,6 +332,7 @@ li a:hover {
   top: 200%;
   height: 50%;
   width: 100%;
+  left: 0;
 }
 .address{
   position: absolute;

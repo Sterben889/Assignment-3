@@ -103,6 +103,7 @@ li a:hover {
   top: 5%;
   width: 100%;
   height: 11%;
+  left: 0;
 }
 .Nav-bar {
   position: fixed;
@@ -118,6 +119,7 @@ li a:hover {
   top: 0px;
   height: 5%;
   width: 100%;
+  left: 0;
 }
 
 * {box-sizing:border-box}
@@ -133,88 +135,164 @@ li a:hover {
 /* Hide the images by default */
 .about{
   position: absolute;
-  background-color: #6262fc;
+  background-color: white;
   top: 20%;
   height: 15%;
   width: 100%;
   left: 0px;
 }
+
+.icon{
+  height: 100px;
+  position: absolute;
+  left: 80%;
+  top: 20%;
+}
+.icon1{
+  height: 80px;
+  position: absolute;
+  left: 81%;
+  top: 20%;
+}
+.icon2{
+  height: 80px;
+  position: absolute;
+  left: 81%;
+  top: 20%;
+}
+.icon3{
+  height: 70px;
+  position: absolute;
+  left: 80.5%;
+  top: 20%;
+}
+.icon4{
+  height: 70px;
+  position: absolute;
+  left: 81.5%;
+  top: 20%;
+}
+.icon5{
+  height: 80px;
+  position: absolute;
+  left: 81%;
+  top: 20%;
+}
+.icon6{
+  height: 70px;
+  position: absolute;
+  left: 82%;
+  top: 20%;
+}
+.icon7{
+  height: 70px;
+  position: absolute;
+  left: 82%;
+  top: 20%;
+}
+.line{
+  background-color: #6262fc;
+  top: 20%;
+  height: 5%;
+  width: 100%;
+  left: 0px;
+
+}
+.subheader{
+  font-size: 25px;
+  text-align: center;
+}
+
+.info{
+  position: absolute;
+  top: 40%;
+  text-align: left;
+  background-color: #ADD8E6;
+  width: 100%;
+  left: 0px;
+  height: 15%;
+}
+
+.aboutheader1{
+  position: relative;
+  font-size: 35px;
+  left: 15%;
+}
+.subheader1{
+  position: relative;
+  left: 15%;
+  font-size: 25px;
+  text-align: left;
+}
+.info1{
+  position: absolute;
+  top: 55%;
+  text-align: left;
+  background-color: white;
+  width: 100%;
+  height: 15%;
+}
+
+.info2{
+  position: absolute;
+  top: 70%;
+  text-align: left;
+  background-color: #ADD8E6;
+  width: 100%;
+  left: 0px;
+  height: 15%;
+}
+
+.info3{
+  position: absolute;
+  top: 85%;
+  text-align: left;
+  background-color: white;
+  width: 100%;
+  height: 15%;
+}
+.info4{
+  position: absolute;
+  top: 100%;
+  text-align: left;
+  background-color: #ADD8E6;
+  width: 100%;
+  left: 0px;
+  height: 15%;
+}
+.info5{
+  position: absolute;
+  top: 115%;
+  text-align: left;
+  background-color: white;
+  width: 100%;
+  height: 15%;
+}
+.info6{
+  position: absolute;
+  top: 130%;
+  text-align: left;
+  background-color: #ADD8E6;
+  width: 100%;
+  left: 0px;
+  height: 15%;
+}
+.info7{
+  position: absolute;
+  top: 145%;
+  text-align: left;
+  background-color: white;
+  width: 100%;
+  height: 15%;
+}
+
 .aboutheader{
   text-align: center;
   font-size: 50px;
-  color: white;
+  color: black;
 }
 
-.info-container{
-  position: absolute;
-  height: 30%;
-  width: 100%;
-  top: 30%;
-}
 
-.contact{
-  position: absolute;
-  padding-top: 5%;
-  width: 30%;
-  left: 55%;
-}
-.dentist{
-  top: 30%;
-  position: absolute;
-  left: 14%;
-  height: 130%;
-}
-.dentist-paragraph{
-  font-size: 20px;
-  line-height: 1.3;
-}
-
-.dentist-paragraph1{
-  position: relative;
-  top: 5px;
-  font-size: 20px;
-  line-height: 1.3;
-}
-
-.newparagraph{
-  text-align: center;
-  padding-top: 30%;
-}
-.new-paragraph{
-  position: absolute;
-  text-align: left;
-  width: 74%;
-  left: 14%;
-  font-size: 20px;
-  line-height: 1.5;
-}
-
-.Button2{
-
-  position:  absolute;
-  top: 300%;
-  left: 45%;
-  background-color: blue;
-  color: white;
-  border-radius: 25px;
-  padding: 20px;
-}
-
-.map{
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-iframe{
-  position: absolute;
-  top: 130%;
-  width: 100%;
-  height: 300px;
-}
 .address-container{
   position: absolute;
   background-color: #6262fc;
