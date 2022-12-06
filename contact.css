@@ -149,7 +149,7 @@ li a:hover {
 .address-container{
   position: absolute;
   background-color: #6262fc;
-  top: 140%;
+  top: 145%;
   height: 50%;
   width: 100%;
   left: 0;
@@ -178,7 +178,7 @@ li a:hover {
   position: absolute;
   left: 50%;
   margin-left: -3px;
-  top: 145%;
+  top: 150%;
   opacity: 90%;
 }
 
@@ -236,7 +236,7 @@ iframe{
   top: 20.7%;
   left: 0;
   width: 50%;
-  height: 120%;
+  height: 124%;
 }
 
 .aboutheader{
@@ -329,4 +329,12 @@ iframe{
   color: black;
   left: 0%;
   top: 120%;
+}
+form{
+  position: absolute;
+  top: 160%;
+  left: 0%;
+}
+.fname1{
+  font-size: 25px;
 }

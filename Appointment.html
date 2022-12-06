@@ -3,45 +3,56 @@
   <head>
     <meta charset="utf-8">
     <title>2nd Avenue Dental</title>
-    <link rel="stylesheet" type="text/css" href="about.css">
-    <script src="about.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="appointment.css">
+    <script src="appointment.js" defer></script>
   </head>
 
   <body>
 
 
     <div class="about">
-      <h1 class="aboutheader">About Us</h1>
+      <h1 class="aboutheader">Request Appointment</h1>
     </div>
 
-    <div class="info-container">
-      <img src="dentist-dental-team-holding-thumbs-up-happy-smiling-their-practice-33264746.jpg" class="dentist">
-      <div class="contact">
+    <div class="appointment">
+      <h1 class="aboutheader1">Fill In The Form</h1>
+      <p class="subheader">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo</p>
+    </div>
 
-        <h1>Generic Dentist</h1>
-        <p class="dentist-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-      <div class="newparagraph">
-        <h1>What We Stand For</h1>
-        <p class="new-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-          ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-          sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-          Fringilla ut morbi tincidunt augue interdum.
-          Nunc lobortis mattis aliquam faucibus purus in. Semper feugiat nibh sed pulvinar proin.
-          Fermentum et sollicitudin ac orci phasellus egestas tellus rutrum.
-          Mauris cursus mattis molestie a iaculis at erat. Duis ultricies lacus sed turpis tincidunt id.
-          Nunc id cursus metus aliquam eleifend mi in. Egestas quis ipsum suspendisse ultrices gravida dictum fusce.</p>
-      </div>
-      <li><a class="Button2" href="Appointment.html">Book Appointment</a></li>
-      </div>
+    <form>
+      <label for="fname" class="fname">Patient Name *</label><br><br>
+      <input type="text" id="fname" name="fname" value="First Name" size="60" required>
+      <input type="text" id="lname" name="lname" value="Last Name" size="60" required><br><br>
+      <label for="fname" class="fname">Patient Name *</label><br><br>
+      <label class="radio-inline">
+      <input type="radio" name="optradio" checked>New Patient
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="optradio">Returning Patient
+      </label>
+      <br><br>
+      <label for="fname" class="fname">Email *</label>
+      <label for="fname" class="fname1">Message *</label><br><br>
+      <input type="text" id="fname" name="fname" size="60" required><br><br>
+
+      <label for="fname" class="fname">Services *</label><br><br>
+      <select id="temperature_to" name="temperature_to">
+        <option value="Service">Select Service</option>
+        <option value="Service">Select Service</option>
+        <option value="Service">Select Service</option>
+      </select><br><br>
+
+      <label for="fname" class="fname">Choose Date *</label>
+      <br>
+      <input type="datetime-local" class="form-control col-md-6" name="book" required><br><br>
+
+      <textarea id="textbox" class="fname" name="textbox" rows="6" cols="45" required></textarea>
+      <input type="submit" class="submit" value="Submit">
+    </form>
+
+
+
       <div class="map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3332.706547121117!2d130.23782204440624!3d33.35261556171964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3541c8c4531463a1%3A0x0!2zMzPCsDIxJzA5LjQiTiAxMzDCsDE0JzI0LjAiRQ!5e0!3m2!1sen!2sca!4v1669930941006!5m2!1sen!2sca"
         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -104,7 +115,7 @@
             <li><a class="Button" href="Appointment.html">Book Appointment</a></li>
             <li><a href="Contact.html">Contact</a></li>
             <li><a href="Service.html">Service</a></li>
-            <li><a href="About.html" class="online">About</a></li>
+            <li><a href="About.html">About</a></li>
             <li><a href="Home.html">Home</a></li>
             <a href="Home.html"><img src="Capture2.PNG" class="logo"></a>
           </ul>
