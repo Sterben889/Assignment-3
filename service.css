@@ -57,6 +57,7 @@ li a:hover {
 }
 .twitter{
   position: absolute;
+  top: 20%;
   padding: 5px;
   height: 40px;
   right: 17%;
@@ -64,6 +65,7 @@ li a:hover {
 .telephone{
   position: absolute;
   padding: 5px;
+  top: 20%;
   height: 40px;
   right: 19%;
 }
@@ -110,7 +112,7 @@ li a:hover {
   top: 5%;
   left: 15%;
   width: 70%;
-  height: 90%;
+  height: 20%;
 }
 
 .originalHeader{
@@ -212,6 +214,208 @@ li a:hover {
   left: 0px;
   height: 15%;
 }
+  .info::after {
+    content: "";
+    width: 84%;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 50px;
+    bottom: 0px;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%);
+    filter: blur(50px);
+    transition: 0.3s;
+  }
+  .info:hover {
+      content: "";
+      width: 84%;
+      height: 15%;
+      position: absolute;
+      bottom: 0px;
+      left: 50%;
+      z-index: 1;
+      transform: translate(-50%);
+      filter: blur(0px);
+      width: 97%;
+    }
+    .info1::after {
+      content: "";
+      width: 84%;
+      height: 90%;
+      background: rgba(0, 0, 0, 0.2);
+      position: absolute;
+      bottom: 8px;
+      left: 50%;
+      z-index: -1;
+      transform: translate(-50%);
+      filter: blur(50px);
+      transition: 0.3s;
+    }
+    .info1:hover {
+        content: "";
+        width: 84%;
+        height: 15%;
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        z-index: 1;
+        transform: translate(-50%);
+        filter: blur(0px);
+        width: 97%;
+      }
+      .info2::after {
+        content: "";
+        width: 84%;
+        height: 90%;
+        background: rgba(0, 0, 0, 0.2);
+        position: absolute;
+        bottom: 8px;
+        left: 50%;
+        z-index: -1;
+        transform: translate(-50%);
+        filter: blur(50px);
+        transition: 0.3s;
+      }
+      .info2:hover {
+          content: "";
+          width: 84%;
+          height: 15%;
+          position: absolute;
+          bottom: 0px;
+          left: 50%;
+          z-index: 1;
+          transform: translate(-50%);
+          filter: blur(0px);
+          width: 97%;
+        }
+        .info3::after {
+          content: "";
+          width: 84%;
+          height: 90%;
+          background: rgba(0, 0, 0, 0.2);
+          position: absolute;
+          bottom: 8px;
+          left: 50%;
+          z-index: -1;
+          transform: translate(-50%);
+          filter: blur(50px);
+          transition: 0.3s;
+        }
+        .info3:hover {
+            content: "";
+            width: 84%;
+            height: 15%;
+            position: absolute;
+            bottom: 0px;
+            left: 50%;
+            z-index: 1;
+            transform: translate(-50%);
+            filter: blur(0px);
+            width: 97%;
+          }
+          .info4::after {
+            content: "";
+            width: 84%;
+            height: 90%;
+            background: rgba(0, 0, 0, 0.2);
+            position: absolute;
+            bottom: 8px;
+            left: 50%;
+            z-index: -1;
+            transform: translate(-50%);
+            filter: blur(50px);
+            transition: 0.3s;
+          }
+          .info4:hover {
+              content: "";
+              width: 84%;
+              height: 15%;
+              position: absolute;
+              bottom: 0px;
+              left: 50%;
+              z-index: 1;
+              transform: translate(-50%);
+              filter: blur(0px);
+              width: 97%;
+            }
+            .info5::after {
+              content: "";
+              width: 84%;
+              height: 90%;
+              background: rgba(0, 0, 0, 0.2);
+              position: absolute;
+              bottom: 8px;
+              left: 50%;
+              z-index: -1;
+              transform: translate(-50%);
+              filter: blur(50px);
+              transition: 0.3s;
+            }
+            .info5:hover {
+                content: "";
+                width: 84%;
+                height: 15%;
+                position: absolute;
+                bottom: 0px;
+                left: 50%;
+                z-index: 1;
+                transform: translate(-50%);
+                filter: blur(0px);
+                width: 97%;
+              }
+              .info6::after {
+                content: "";
+                width: 84%;
+                height: 90%;
+                background: rgba(0, 0, 0, 0.2);
+                position: absolute;
+                bottom: 8px;
+                left: 50%;
+                z-index: -1;
+                transform: translate(-50%);
+                filter: blur(50px);
+                transition: 0.3s;
+              }
+              .info6:hover {
+                  content: "";
+                  width: 84%;
+                  height: 15%;
+                  position: absolute;
+                  bottom: 0px;
+                  left: 50%;
+                  z-index: 1;
+                  transform: translate(-50%);
+                  filter: blur(0px);
+                  width: 97%;
+                }
+                .info7::after {
+                  content: "";
+                  width: 84%;
+                  height: 90%;
+                  background: rgba(0, 0, 0, 0.2);
+                  position: absolute;
+                  bottom: 8px;
+                  left: 50%;
+                  z-index: -1;
+                  transform: translate(-50%);
+                  filter: blur(50px);
+                  transition: 0.3s;
+                }
+                .info7:hover {
+                    content: "";
+                    width: 84%;
+                    height: 15%;
+                    position: absolute;
+                    bottom: 0px;
+                    left: 50%;
+                    z-index: 1;
+                    transform: translate(-50%);
+                    filter: blur(0px);
+                    width: 97%;
+                  }
+
 
 .aboutheader1{
   position: relative;

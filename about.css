@@ -57,6 +57,7 @@ li a:hover {
 }
 .twitter{
   position: absolute;
+  top: 20%;
   padding: 5px;
   height: 40px;
   right: 17%;
@@ -64,6 +65,7 @@ li a:hover {
 .telephone{
   position: absolute;
   padding: 5px;
+  top: 20%;
   height: 40px;
   right: 19%;
 }

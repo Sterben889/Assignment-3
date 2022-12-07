@@ -57,6 +57,7 @@ li a:hover {
 }
 .twitter{
   position: absolute;
+  top: 20%;
   padding: 5px;
   height: 40px;
   right: 17%;
@@ -64,6 +65,7 @@ li a:hover {
 .telephone{
   position: absolute;
   padding: 5px;
+  top: 20%;
   height: 40px;
   right: 19%;
 }
@@ -298,7 +300,18 @@ input[type="radio"]{
   top: 52.5%;
   font-size: 25px;
 }
-.submit{
+
+.button{
   position: absolute;
-  right: 0%;
+  right: -1%;
+}
+.phone{
+  font-size: 25px;
+  padding-left: 39%;
+}
+.phone1{
+  position: absolute;
+  font-size: 25px;
+  top: 32%;
+  left: 50.5%;
 }
